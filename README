@@ -1,0 +1,17 @@
+Data Scienve project - Detection of Suspicious Transactions via Anomaly Detection (AML Project)
+
+1. Project Overview
+This project focuses on detecting suspicious financial transactions using anomaly detection techniques. The goal is to explore transaction patterns, identify unusual behavior, 
+and evaluate different statistical and machine‑learning methods for AML (Anti‑Money Laundering) analysis.
+2. Objectives
+Perform exploratory data analysis (EDA) on transaction datasets
+Detect anomalies using multiple methods
+Compare the performance and interpretability of different approaches
+Formulate and test hypotheses related to suspicious behavior
+3. Data Sources
+4. Methodology
+5. Exploratory Data Analysis (EDA)
+6. Hypothesis Testing
+7. Anomaly Detection Models
+8. Results
+9. References
