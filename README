@@ -9,6 +9,14 @@ Detect anomalies using multiple methods
 Compare the performance and interpretability of different approaches
 Formulate and test hypotheses related to suspicious behavior
 3. Data Sources
+Due to file size constraints, this project uses a sample of the original datasets.
+
+- **SAML-D:** 10000 rows sampled from the full dataset
+- **IBM HI-Large:** 10000 rows sampled from HI-Large_Trans.csv
+
+Full datasets available on Kaggle:
+- [SAML-D](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
+- [IBM AML HI-Large](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
 4. Methodology
 5. Exploratory Data Analysis (EDA)
 6. Hypothesis Testing
