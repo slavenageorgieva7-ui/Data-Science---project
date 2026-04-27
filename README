@@ -18,8 +18,29 @@ Full datasets available on Kaggle:
 - [SAML-D](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
 - [IBM AML HI-Large](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
 4. Methodology
+The project follows a structured approach:
+Data cleaning and preprocessing
+Feature engineering (e.g. time, transaction behavior)
+Statistical analysis
+Anomaly detection using different techniques
 5. Exploratory Data Analysis (EDA)
+EDA is used to understand transaction behavior and identify patterns:
+Distribution of transaction amounts
+Differences between normal and suspicious transactions
+Detection of outliers and skewness
 6. Hypothesis Testing
+A statistical hypothesis test is performed to compare transaction amounts:
+H₀: No significant difference between normal and suspicious transactions
+H₁: Suspicious transactions have higher amounts
+A Mann-Whitney U test is used due to non-normal data distribution.
 7. Anomaly Detection Models
+7. Anomaly Detection
+The following methods are applied:
+Z-score – detects extreme values
+IQR – identifies statistical outliers
+Isolation Forest – machine learning approach
 8. Results
+Transaction amount alone is not always a reliable indicator
+Different datasets show different patterns
+Machine learning methods perform better than simple statistical rules
 9. References
